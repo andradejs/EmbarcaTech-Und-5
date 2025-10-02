@@ -47,4 +47,10 @@ class Logger():
             
 
         return wrapper
-    
+
+    def logger_write_result_dict(results:dict):
+
+        for key, result in results.items():
+            self.Logger.debug(f'{key} is equal to: {result}')
+
+        print()
