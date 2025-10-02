@@ -74,7 +74,7 @@ Exemplo:
 ```python
 from logger import Logger
 
-log = Logger("/mnt/sdcard/logs")
+log = Logger("datalogger.txt","/mnt/sdcard/logs")
 ```
 
 ### 5. Executar a aplicação
