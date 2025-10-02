@@ -13,7 +13,7 @@ def main_read_aht10():
         temperature, humidity = aht10_read()
 
         results = {
-            'Temperatiure': temperature,
+            'Temperature': temperature,
             'Humidity': humidity
         }
 
